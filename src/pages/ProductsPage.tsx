@@ -13,6 +13,7 @@ const ProductsPage: React.FC = () => {
   const [activeFilters, setActiveFilters] = useState({
     category: categoryParam || 'all',
     type: 'all',
+    size: 'all',
     priceRange: 'all',
     sort: 'featured',
   });
@@ -40,6 +41,11 @@ const ProductsPage: React.FC = () => {
     // Type filter
     if (activeFilters.type !== 'all') {
       filtered = filtered.filter(product => product.type === activeFilters.type);
+    }
+
+    // Size filter
+    if (activeFilters.size!== 'all') {
+      filtered = filtered.filter(product => product.size === activeFilters.size);
     }
 
     // Price range filter
@@ -141,9 +147,29 @@ const ProductsPage: React.FC = () => {
                 >
                   <option value="all">All Types</option>
                   <option value="Nepal Rudraksha">Nepal Rudraksha</option>
-                  <option value="Indonesian Rudraksha">Indonesian Rudraksha</option>
-                  <option value="Ganesh Rudraksha">Ganesh Rudraksha</option>
+                  {/* <option value="Indonesian Rudraksha">Indonesian Rudraksha</option>
+                  <option value="Ganesh Rudraksha">Ganesh Rudraksha</option> */}
                   <option value="Gauri Shankar">Gauri Shankar</option>
+                </select>
+              </div>
+
+              {/* Size Filter */}
+              <div className="relative">
+                <label htmlFor="type-filter" className="block text-sm font-medium text-amber-700 mb-1">
+                  Size
+                </label>
+                <select
+                  id="type-filter"
+                  value={activeFilters.size}
+                  onChange={(e) => handleFilterChange('size', e.target.value)}
+                  className="block w-full bg-white border border-amber-300 rounded-md py-2 pl-3 pr-10 text-base focus:outline-none focus:ring-amber-500 focus:border-amber-500"
+                >
+                  <option value="all">All Types</option>
+                  <option value="Small">Small</option>
+                  {/* <option value="Indonesian Rudraksha">Indonesian Rudraksha</option>
+                  <option value="Ganesh Rudraksha">Ganesh Rudraksha</option> */}
+                  <option value="Medium">Medium</option>
+                  <option value="Large">Large</option>
                 </select>
               </div>
               
@@ -237,6 +263,7 @@ const ProductsPage: React.FC = () => {
               onClick={() => setActiveFilters({
                 category: 'all',
                 type: 'all',
+                size: 'all',
                 priceRange: 'all',
                 sort: 'featured',
               })}

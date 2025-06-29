@@ -84,10 +84,10 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
             </div>
             
             <div className="text-2xl font-bold text-amber-900 mb-4">
-              ${product.price.toFixed(2)}
+              रु{product.price.toFixed(2)}
               {product.oldPrice && (
                 <span className="text-gray-500 text-lg line-through ml-2">
-                  ${product.oldPrice.toFixed(2)}
+                  रु{product.oldPrice.toFixed(2)}
                 </span>
               )}
             </div>
@@ -118,17 +118,18 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
             </div>
             
             <div className="flex flex-wrap gap-4 mb-6">
-              <Button
+              {/* <Button
                 variant="primary"
                 size="lg"
                 fullWidth
                 icon={<ShoppingBag size={18} />}
               >
                 Add to Cart
-              </Button>
+              </Button> */}
               <Button
-                variant="outline"
+                variant="primary"
                 size="lg"
+                fullWidth
                 onClick={handleInquiry}
                 icon={<MessageCircle size={18} />}
               >
@@ -137,14 +138,14 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
             </div>
             
             <div className="flex space-x-4 text-gray-500">
-              <button className="flex items-center hover:text-amber-700">
+              {/* <button className="flex items-center hover:text-amber-700">
                 <Heart size={18} className="mr-1" />
                 <span>Add to Wishlist</span>
-              </button>
-              <button className="flex items-center hover:text-amber-700">
+              </button> */}
+              {/* <button className="flex items-center hover:text-amber-700">
                 <Share2 size={18} className="mr-1" />
                 <span>Share</span>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

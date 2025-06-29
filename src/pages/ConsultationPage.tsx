@@ -29,7 +29,7 @@ const ConsultationPage: React.FC = () => {
   };
 
   const handleWhatsApp = () => {
-    const phoneNumber = '9779841234567';
+    const phoneNumber = '9779764569461';
     const message = encodeURIComponent('Hello, I would like to schedule a Rudraksha consultation.');
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
@@ -117,7 +117,7 @@ const ConsultationPage: React.FC = () => {
                 <div className="mb-8">
                   <h3 className="font-semibold mb-2">Quick Contact</h3>
                   <p className="mb-1">Email: info@rudraksha.com</p>
-                  <p>Phone: +977 9841234567</p>
+                  <p>Phone: +977 9764569461</p>
                 </div>
                 
                 <Button 

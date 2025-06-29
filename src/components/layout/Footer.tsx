@@ -50,11 +50,11 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <Mail size={18} className="mt-1 mr-2 flex-shrink-0" />
-                <span>info@rudraksha.com</span>
+                <span>info-original@rudrakshya.com</span>
               </li>
               <li className="flex items-start">
                 <Phone size={18} className="mt-1 mr-2 flex-shrink-0" />
-                <span>+977 9841234567</span>
+                <span>+977 9764569461</span>
               </li>
             </ul>
           </div>

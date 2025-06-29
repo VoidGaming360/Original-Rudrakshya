@@ -28,79 +28,67 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
       
-      {/* Our Story */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-serif font-bold text-amber-900 mb-6">Our Story</h2>
-            <p className="text-lg text-amber-800 mb-6">
-              Founded in 2010, RudrakshaBeads began with a simple mission: to bring the spiritual
-              power of authentic Rudraksha beads to seekers around the world. What started as a
-              small family business in Kathmandu has grown into a trusted source of premium quality
-              Rudraksha beads with customers across the globe.
-            </p>
-            <p className="text-lg text-amber-800 mb-6">
-              Our journey began when our founder, Arjun Sharma, discovered the transformative power
-              of Rudraksha during his own spiritual practice. Witnessing the positive changes in his
-              life, he decided to share this ancient wisdom with others, ensuring that authentic
-              Rudraksha beads would be accessible to spiritual practitioners worldwide.
-            </p>
-            <p className="text-lg text-amber-800">
-              Today, we work directly with local communities in Nepal to ethically source our
-              Rudraksha beads, supporting sustainable harvesting practices and fair trade principles.
-              Every bead in our collection is carefully selected, authenticated, and energized
-              according to traditional methods before reaching our customers.
-            </p>
-          </div>
-        </div>
-      </section>
+     {/* Our Story */}
+<section className="py-16 bg-white">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-serif font-bold text-amber-900 mb-6">Our Story</h2>
+      <p className="text-lg text-amber-800 mb-6">
+        Rooted in tradition and devotion, RudrakshaBeads traces its origins back four generations to the early 1970s. What began as a humble Rudraksha business in the serene hills of Dingla, Bhojpur, has now evolved into a globally trusted name for authentic Rudraksha beads.
+      </p>
+      <p className="text-lg text-amber-800 mb-6">
+        Our journey began when our ancestor, deeply immersed in spiritual practices, experienced profound transformation through the power of Rudraksha. Inspired to share this gift, the family committed to providing genuine, high-vibration Rudraksha sourced solely from Dingla Bhojpur—a region renowned for its sacred and powerful beads.
+      </p>
+      <p className="text-lg text-amber-800">
+        Today, we remain dedicated to our roots. Every Rudraksha in our collection is ethically sourced from Dingla Bhojpur, handpicked for authenticity, and energized through traditional methods before it reaches your hands—ensuring spiritual integrity and connection.
+      </p>
+    </div>
+  </div>
+</section>
+
+{/* Our Values */}
+<section className="py-16 bg-amber-50">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-serif font-bold text-amber-900 text-center mb-12">
+      Our Values
+    </h2>
+    
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="bg-white p-6 rounded-lg shadow-sm">
+        <Award className="w-12 h-12 text-amber-600 mb-4" />
+        <h3 className="text-xl font-semibold text-amber-900 mb-2">Authenticity</h3>
+        <p className="text-amber-800">
+          Every Rudraksha we offer comes from Dingla Bhojpur, known for producing some of the most genuine and spiritually potent beads in the world.
+        </p>
+      </div>
       
-      {/* Our Values */}
-      <section className="py-16 bg-amber-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-serif font-bold text-amber-900 text-center mb-12">
-            Our Values
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Award className="w-12 h-12 text-amber-600 mb-4" />
-              <h3 className="text-xl font-semibold text-amber-900 mb-2">Authenticity</h3>
-              <p className="text-amber-800">
-                We guarantee the authenticity of every Rudraksha in our collection,
-                with proper certification and origin verification.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Users className="w-12 h-12 text-amber-600 mb-4" />
-              <h3 className="text-xl font-semibold text-amber-900 mb-2">Community</h3>
-              <p className="text-amber-800">
-                We support the local communities in Nepal where our Rudraksha
-                beads are sourced, ensuring fair practices and sustainability.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <MapPin className="w-12 h-12 text-amber-600 mb-4" />
-              <h3 className="text-xl font-semibold text-amber-900 mb-2">Ethical Sourcing</h3>
-              <p className="text-amber-800">
-                All our products are ethically sourced and harvested with respect
-                for nature and traditional practices.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Clock className="w-12 h-12 text-amber-600 mb-4" />
-              <h3 className="text-xl font-semibold text-amber-900 mb-2">Customer Care</h3>
-              <p className="text-amber-800">
-                We provide personalized consultation and lifetime support for all
-                your Rudraksha needs and questions.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="bg-white p-6 rounded-lg shadow-sm">
+        <Users className="w-12 h-12 text-amber-600 mb-4" />
+        <h3 className="text-xl font-semibold text-amber-900 mb-2">Community</h3>
+        <p className="text-amber-800">
+          We work hand-in-hand with the communities of Dingla Bhojpur, preserving traditional practices and supporting local livelihoods through our fair and respectful approach.
+        </p>
+      </div>
+      
+      <div className="bg-white p-6 rounded-lg shadow-sm">
+        <MapPin className="w-12 h-12 text-amber-600 mb-4" />
+        <h3 className="text-xl font-semibold text-amber-900 mb-2">Ethical Sourcing</h3>
+        <p className="text-amber-800">
+          All our Rudraksha beads are ethically harvested in the forests of Dingla Bhojpur, with deep reverence for the environment and cultural heritage.
+        </p>
+      </div>
+      
+      <div className="bg-white p-6 rounded-lg shadow-sm">
+        <Clock className="w-12 h-12 text-amber-600 mb-4" />
+        <h3 className="text-xl font-semibold text-amber-900 mb-2">Customer Care</h3>
+        <p className="text-amber-800">
+          From guidance in selection to spiritual advice, we offer lifelong support rooted in our family’s generations of experience and trust.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
       
       {/* Our Process */}
       <section className="py-16 bg-white">
