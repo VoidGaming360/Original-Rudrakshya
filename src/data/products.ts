@@ -270,5 +270,279 @@ export const productsData: Product[] = [
     faces: 19,
     origin: 'Nepal',
     certification: true
+  },
+  {
+    id: '9',
+    name: '9 Mukhi Rudraksha (M)',
+    type: 'Nepal Rudraksha',
+    size: 'Medium',
+    category: 'mukhis',
+    price: 89.99,
+    rating: 4.8,
+    reviews: 74,
+    image: '/images/Medium/9 Mukhi/IMG_1774.jpeg',
+    gallery: [
+      '/images/Medium/9 Mukhi/IMG_1774.jpeg',
+      '/images/Medium/9 Mukhi/IMG_1775.jpeg',
+      '/images/Medium/9 Mukhi/IMG_1778.jpeg'
+    ],
+    shortDescription: 'Sacred 9 Mukhi Rudraksha bead representing Goddess Durga, offering courage, power, and protection from fear and negativity.',
+    description: 'This medium-sized 9 Mukhi Rudraksha symbolizes the divine energy of Goddess Durga. It is known to empower the wearer with inner strength, confidence, and fearlessness. Ideal for individuals facing constant challenges or seeking spiritual protection, this Rudraksha balances energies and supports personal transformation. It is carefully selected for authenticity and effectiveness.',
+    benefits: [
+      'Enhances inner strength and confidence',
+      'Protects against fear, negative thoughts, and obstacles',
+      'Boosts stamina and willpower',
+      'Supports emotional healing and clarity',
+      'Balances the solar plexus chakra for personal power'
+    ],
+    wearingMethod: 'Wear on a red thread or chain, ideally touching the skin near the heart or solar plexus chakra.',
+    mantras: 'Om Hreem Hum Namah',
+    faces: 9,
+    origin: 'Nepal',
+    certification: true
+  },
+  {
+    id: '10',
+    name: '10 Mukhi Rudraksha (M)',
+    type: 'Nepal Rudraksha',
+    size: 'Medium',
+    category: 'mukhis',
+    price: 89.99,
+    rating: 4.9,
+    reviews: 74,
+    image: '/images/Medium/10 Mukhi/IMG_1786.jpeg',
+    gallery: [
+      '/images/Medium/10 Mukhi/IMG_1786.jpeg',
+      '/images/Medium/10 Mukhi/IMG_1787.jpeg',
+      '/images/Medium/10 Mukhi/IMG_1791.jpeg'
+    ],
+    shortDescription: 'Powerful 10 Mukhi Rudraksha bead representing Lord Vishnu, offering protection from negative influences and spiritual disturbances.',
+    description: 'This medium-sized 10 Mukhi Rudraksha is associated with Lord Vishnu, the preserver of the universe. It is known to shield the wearer from evil forces, black magic, and spiritual obstacles. Ideal for those seeking peace of mind and divine protection, this bead also helps in overcoming fear and settling karmic imbalances. Carefully sourced for authenticity, this Rudraksha carries high spiritual vibration.',
+    benefits: [
+      'Protects from evil spirits, black magic, and negative energies',
+      'Helps overcome fear, anxiety, and restlessness',
+      'Supports emotional and spiritual healing',
+      'Balances all chakras and harmonizes the aura',
+      'Enhances divine connection and inner peace'
+    ],
+    wearingMethod: 'Wear on a red or yellow thread, ideally close to the heart chakra or on the right arm.',
+    mantras: 'Om Hreem Namah',
+    faces: 10,
+    origin: 'Nepal',
+    certification: true
+  },
+  {
+    id: '11',
+    name: '11 Mukhi Rudraksha (M)',
+    type: 'Nepal Rudraksha',
+    size: 'Medium',
+    category: 'mukhis',
+    price: 89.99,
+    rating: 4.7,
+    reviews: 128,
+    image: '/images/Medium/11 mukhi/IMG_1779.jpeg',
+    gallery: [
+      '/images/Medium/11 mukhi/IMG_1779.jpeg',
+      '/images/Medium/11 mukhi/IMG_1782.jpeg',
+      '/images/Medium/11 mukhi/IMG_1783.jpeg'
+    ],
+    shortDescription: 'Spiritual 11 Mukhi Rudraksha bead blessed by Lord Hanuman, known for strength, courage, and powerful protection from all forms of negativity.',
+    description: 'This medium-sized 11 Mukhi Rudraksha is associated with Lord Hanuman, the embodiment of fearlessness, devotion, and strength. Wearing this bead is believed to bestow immense courage, willpower, and protection from harmful energies. It is especially beneficial for individuals engaged in leadership, physical activity, or spiritual practice. This bead is carefully chosen for authenticity and spiritual potency.',
+    benefits: [
+      'Grants strength, courage, and fearlessness',
+      'Protects against evil energies, accidents, and negative influences',
+      'Supports discipline, confidence, and decision-making',
+      'Improves focus, memory, and spiritual awareness',
+      'Activates and balances the Manipura (solar plexus) chakra'
+    ],
+    wearingMethod: 'Wear on a red or orange thread, preferably on the right arm or close to the heart during spiritual practice.',
+    mantras: 'Om Hreem Hum Namah',
+    faces: 11,
+    origin: 'Nepal',
+    certification: true
+  },
+  {
+    id: '12',
+    name: '12 Mukhi Rudraksha (M)',
+    type: 'Nepal Rudraksha',
+    size: 'Medium',
+    category: 'mukhis',
+    price: 189.99,
+    rating: 4.9,
+    reviews: 128,
+    image: '/images/Medium/12 Mukhi/IMG_E1791.jpeg',
+    gallery: [
+      '/images/Medium/12 Mukhi/IMG_E1791.jpeg'
+    ],
+    shortDescription: 'Radiant 12 Mukhi Rudraksha bead blessed by Lord Surya, promoting leadership, vitality, and protection from harmful energies.',
+    description: 'This medium-sized 12 Mukhi Rudraksha represents the Sun God (Surya Dev) and is revered for enhancing personal power, charisma, and vitality. It is ideal for leaders, entrepreneurs, and those in public-facing roles. Wearing this Rudraksha helps remove self-doubt, boosts confidence, and protects against physical and mental ailments. Carefully selected for purity, it radiates strong solar energy and spiritual strength.',
+    benefits: [
+      'Boosts leadership qualities and self-confidence',
+      'Improves vitality, energy levels, and motivation',
+      'Protects against diseases and harmful planetary effects',
+      'Promotes fame, recognition, and influence',
+      'Balances the solar plexus and enhances aura brightness'
+    ],
+    wearingMethod: 'Wear on a gold or copper chain, or red thread, ideally close to the solar plexus or heart chakra.',
+    mantras: 'Om Kraum Sraum Raum Namah',
+    faces: 12,
+    origin: 'Nepal',
+    certification: true
+  },
+  {
+    id: '13',
+    name: '14 Mukhi Rudraksha (M)',
+    type: 'Nepal Rudraksha',
+    size: 'Medium',
+    category: 'mukhis',
+    price: 189.99,
+    rating: 4.9,
+    reviews: 128,
+    image: '/images/Medium/14 mukhi/IMG_E1769.jpeg',
+    gallery: [
+      '/images/Medium/14 mukhi/IMG_E1769.jpeg',
+      '/images/Medium/14 mukhi/IMG_E1770.jpeg'
+    ],
+    shortDescription: 'Divine 14 Mukhi Rudraksha bead ruled by Lord Shiva and Hanuman, offering heightened intuition, protection, and spiritual awakening.',
+    description: 'This medium-sized 14 Mukhi Rudraksha is one of the most powerful and rare beads, blessed by both Lord Shiva and Lord Hanuman. It is believed to activate the Ajna (third eye) chakra, enhancing intuition, foresight, and decision-making abilities. Known as the “Devamani” or “Divine Gem,” it shields the wearer from negative influences, accidents, and spiritual blockages. Ideal for seekers, leaders, and spiritual practitioners, this bead is carefully selected for its authenticity and sacred energy.',
+    benefits: [
+      'Enhances intuition and sixth sense',
+      'Improves decision-making, clarity, and inner guidance',
+      'Protects from black magic, accidents, and negative energies',
+      'Strengthens willpower, courage, and emotional stability',
+      'Activates the third eye chakra for spiritual insight'
+    ],
+    wearingMethod: 'Wear on a red or black thread, or in a pendant form, ideally near the third eye or heart chakra.',
+    mantras: 'Om Namah Shivaya',
+    faces: 14,
+    origin: 'Nepal',
+    certification: true
+  },
+  {
+    id: '14',
+    name: '16 Mukhi Rudraksha (M)',
+    type: 'Nepal Rudraksha',
+    size: 'Medium',
+    category: 'mukhis',
+    price: 289.99,
+    rating: 4.9,
+    reviews: 128,
+    image: '/images/Medium/16 mukhi/IMG_E1742.jpeg',
+    gallery: [
+      '/images/Medium/16 mukhi/IMG_E1743.jpeg',
+      '/images/Medium/16 mukhi/IMG_E1750.jpeg',
+      '/images/Medium/16 mukhi/IMG_E1751.jpeg'
+    ],
+    shortDescription: 'Powerful 16 Mukhi Rudraksha bead blessed by Lord Mahamrityunjaya (Shiva), offering protection from fear, illness, and untimely death.',
+    description: 'The medium-sized 16 Mukhi Rudraksha is a highly potent bead associated with Lord Mahamrityunjaya, a fierce form of Lord Shiva. Known as the “Jeevan Raksha Rudraksha,” it is believed to offer divine protection from physical harm, accidents, fears, and life-threatening conditions. It is ideal for those facing high-risk situations, chronic health problems, or spiritual vulnerability. This sacred bead purifies the aura, instills fearlessness, and promotes longevity and inner strength.',
+    benefits: [
+      'Offers protection from fear, accidents, and untimely death',
+      'Helps in healing chronic illnesses and boosting immunity',
+      'Removes internal fears, phobias, and emotional trauma',
+      'Promotes peace, strength, and mental resilience',
+      'Strengthens connection with Lord Shiva and higher consciousness'
+    ],
+    wearingMethod: 'Wear on a red or black thread, or mount in a silver/gold pendant close to the heart or throat chakra.',
+    mantras: 'Om Hreem Hoom Namah',
+    faces: 16,
+    origin: 'Nepal',
+    certification: true
+  },
+  {
+    id: '15',
+    name: '18 Mukhi Rudraksha (M)',
+    type: 'Nepal Rudraksha',
+    size: 'Medium',
+    category: 'mukhis',
+    price: 249.99,
+    rating: 4.8,
+    reviews: 79,
+    image: '/images/Medium/18 Mukhi/IMG_1666.jpeg',
+    gallery: [
+      '/images/Medium/18 Mukhi/IMG_1667.jpeg',
+      '/images/Medium/18 Mukhi/IMG_1668.jpeg',
+      '/images/Medium/18 Mukhi/IMG_E1706.jpeg',
+      '/images/Medium/18 Mukhi/IMG_E1707.jpeg',
+      '/images/Medium/18 Mukhi/IMG_E1708.jpeg',
+      '/images/Medium/18 Mukhi/IMG_E1709.jpeg'
+    ],
+    shortDescription: 'Sacred 18 Mukhi Rudraksha bead blessed by Goddess Earth, bringing stability, abundance, and grounding energies.',
+    description: 'The 18 Mukhi Rudraksha is blessed by Goddess Earth (Bhudevi) and is known for its grounding and stabilizing energies. This medium-sized bead helps the wearer achieve stability in both material and spiritual life. It attracts wealth, abundance, and prosperity while enhancing the root chakra, which is associated with security and grounding. Ideal for those seeking financial stability, protection, and a stronger connection to the physical realm, this Rudraksha bead is carefully selected for its authenticity and effectiveness.',
+    benefits: [
+      'Brings stability, grounding, and protection',
+      'Attracts wealth, abundance, and prosperity',
+      'Enhances the root chakra for a strong foundation',
+      'Supports overcoming obstacles and challenges',
+      'Promotes physical well-being and prosperity'
+    ],
+    wearingMethod: 'Wear on a red or yellow thread, preferably near the root chakra or base of the spine for maximum benefits.',
+    mantras: 'Om Hreem Namah',
+    faces: 18,
+    origin: 'Nepal',
+    certification: true
+  },
+  {
+    id: '16',
+    name: '19 Mukhi Rudraksha (M)',
+    type: 'Nepal Rudraksha',
+    size: 'Medium',
+    category: 'mukhis',
+    price: 149.99,
+    rating: 4.8,
+    reviews: 113,
+    image: '/images/Medium/19 Mukhi/IMG_E1664.jpeg',
+    gallery: [
+      '/images/Medium/19 Mukhi/IMG_E1665.jpeg',
+      '/images/Medium/19 Mukhi/IMG_E1666.jpeg',
+      '/images/Medium/19 Mukhi/IMG_E1667.jpeg',
+      '/images/Medium/19 Mukhi/IMG_E1668.jpeg'
+    ],
+    shortDescription: 'Rare 19 Mukhi Rudraksha pendant with gold capping, symbolizing wisdom and spiritual strength for daily protection.',
+    description: 'This exquisite 19 Mukhi Rudraksha pendant features a high-quality bead with a beautiful gold-plated cap, blending spiritual power with elegant design. Known to enhance wisdom, spiritual strength, and protection, this pendant is ideal for everyday wear. The gold capping not only protects the bead but also amplifies its energy.',
+    benefits: [
+      'Enhances wisdom and spiritual strength',
+      'Provides continuous protection from negative energies',
+      'Improves mental clarity and focus',
+      'Reduces stress and promotes inner peace',
+      'Balances and activates the crown chakra'
+    ],
+    wearingMethod: 'Wear on a gold or silver chain, ideally resting near the heart chakra for optimal benefits.',
+    mantras: 'Om Hreem Namah',
+    faces: 19,
+    origin: 'Nepal',
+    certification: true
+  },
+  {
+    id: '17',
+    name: '2 Mukhi Rudraksha (M)',
+    type: 'Nepal Rudraksha',
+    size: 'Medium',
+    category: 'mukhis',
+    price: 149.99,
+    rating: 4.8,
+    reviews: 113,
+    image: '/images/Medium/Dui Mukhi/IMG_1651.jpeg',
+    gallery: [
+      '/images/Medium/Dui Mukhi/IMG_1654.jpeg',
+      '/images/Medium/Dui Mukhi/IMG_1655.jpeg',
+      '/images/Medium/Dui Mukhi/IMG_E1646.jpeg',
+      '/images/Medium/Dui Mukhi/IMG_E1647.jpeg',
+      '/images/Medium/Dui Mukhi/IMG_E1654.jpeg',
+      '/images/Medium/Dui Mukhi/IMG_E1655.jpeg'
+    ],
+    shortDescription: 'Sacred Dui Mukhi Rudraksha bead representing the unity of Lord Shiva and Goddess Parvati, promoting harmony and relationship strength.',
+    description: 'The Dui Mukhi Rudraksha represents the divine union of Lord Shiva and Goddess Parvati. This unique two-faced bead is believed to bring harmony, love, and balance to relationships. It is ideal for individuals seeking to strengthen their relationships, whether with a partner, family, or in professional settings. Known to help remove conflicts and misunderstandings, the Dui Mukhi Rudraksha enhances mutual understanding, trust, and spiritual connection between two souls.',
+    benefits: [
+      'Promotes harmony and peace in relationships',
+      'Helps in resolving conflicts and misunderstandings',
+      'Fosters mutual understanding and trust',
+      'Increases spiritual connection between partners',
+      'Balances emotions and removes negative energy'
+    ],
+    wearingMethod: 'Wear on a red or white thread, ideally around the neck or on the left side of the body to enhance connection and relationship balance.',
+    mantras: 'Om Namah Shivaya',
+    faces: 2,
+    origin: 'Nepal',
+    certification: true
   }
 ];

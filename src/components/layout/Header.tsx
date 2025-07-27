@@ -55,10 +55,9 @@ const Header: React.FC = () => {
             <NavLink to="/about" label="About Us" />
             <NavLink to="/consultation" label="Consultation" />
           </nav>
-
-          {/* Actions */}
+          {/*Actions*/}
           <div className="flex items-center space-x-4">
-            <button
+            {/*<button
               className="text-amber-900 hover:text-amber-700 transition-colors"
               aria-label="Search"
             >
@@ -81,7 +80,9 @@ const Header: React.FC = () => {
                 0
               </span>
             </Link>
+            */}
           </div>
+          
         </div>
       </div>
 
